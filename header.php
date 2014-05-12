@@ -8,8 +8,6 @@
 
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
 
-
-
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
@@ -20,8 +18,6 @@
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-
-
 	<?php wp_get_archives('type=monthly&format=link'); ?>
 
 	<?php //comments_popup_script(); // off by default ?>
@@ -30,8 +26,6 @@
 </head>
 <body>
 	<div id="wrapper">
-
-
 
 		<div id="header">
 			<h1>
