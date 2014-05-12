@@ -1,7 +1,7 @@
 <?php get_header();?>
-
+<!-- test branch 1 2 -->
 <div id="container">
-
+	
  	<?php if(have_posts()) : ?>
 
  		<?php while(have_posts()) : the_post(); ?>
