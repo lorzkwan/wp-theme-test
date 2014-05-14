@@ -33,3 +33,6 @@
 			</h1>
 			<?php bloginfo('description');?>
 		</div>
+		<!-- start wp_page_menu(); -->
+		<?php wp_page_menu(); ?>
+		<!-- end wp_page_menu(); -->
